@@ -10,12 +10,14 @@ import { ClassSampleNew} from './Practise/Class';
 import Prop from './Practise/Prop';
 import BesantTechnologyDetails from './Practise/State';
 import CarDetails from './Statewithhooks';
+import Timer from './Practise/Effect';
 
 
 function App() {
   return (
    <>
    <Hello/>
+   <Timer/>
    <BesantTechnologyDetails/>
    <CarDetails/>
    <ol>
